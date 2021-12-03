@@ -1,0 +1,38 @@
+
+.container{
+	display: flex;
+	border: solid 1px black;
+	flex-direction:column;
+	height: 100px;
+	flex-wrap: wrap;
+	flex-direction:column-reverse;
+	align-items:center;
+	
+}
+.one, .two, .three, .four, .fifth{
+	border: solid 1px black;
+	margin: 5px;
+	display: flex;
+	width: 15%;
+	justify-content: center;
+}
+
+.one{
+	order:1;
+	align-self: flex-start;
+}
+.two{
+	order:2;
+	
+}
+.three{
+	order:3;
+	align-self: flex-end;
+}
+.four{
+	order:5;
+	align-self: flex-start;
+}
+.fifth{
+	order:4;
+}
